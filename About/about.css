@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo h1{
+    background-color: #FC5602;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+    width: fit-content;
+}
+.logo h1 span{
+    background-color: #fafafa;
+    color: #FC5602;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+header nav ul li:nth-of-type(2) a{
+    color: #FC5602;
+}
+.btn{
+    display: flex;
+    gap: 50px;
+}
+.btn button{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #FC5602;
+    border: none;
+    outline: none;
+    color: white;
+}
+.btn button a{
+    color: white;
+    text-decoration: none;
+
+}
+.btn .login{
+    background-color: white;
+    border: 2px solid #FC5602;
+}
+.btn .login a{
+    color: black;
+}
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 50px 100px;
+}
+.about-us .left{
+    width: 600px;
+    
+}
+.about-us .right img{
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+}
+.about-us .right{
+    position: relative;
+}
+.about-us .left h1{
+    font-size: 50px;
+    width: 400px;
+    padding: 20px 0px;
+}
+.about-us .left h4{
+    font-size: 24px;
+    color: grey;
+    font-weight: lighter;
+}
+.about-us .gray{
+    width: 190px;
+    height: 135px;
+    background-color: #A7B7C7;
+    position: absolute;
+    top: 105px;
+    left: 110px;
+}
+.about-us .logo{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+}
+.about-us .right p{
+    position: absolute;
+    top: 190px;
+    left: 120px;
+    font-size: 10px;
+    color: white;
+}
+.how, .mission, .history, .suites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+.how h2, .mission h2{
+    font-size: 31px;
+}
+.how img{
+    width: 1020px;
+    height: 400px;
+    padding: 30px 0px;
+    border-radius: 45px;
+}
+
+.mission .revo{
+    background-color: #FC5602;
+    height: 150px;
+    width: 1020px;
+    border-radius: 25px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission .revo p{
+    font-size: 24px;
+    color: white;
+    width: 700px;
+    text-align: center;
+}
+.mission p, .history p{
+    font-size: 24px;
+    font-weight: lighter;
+}
+.history p{
+    margin-top: 30px;
+}
+.suites .card{
+    width: 1020px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+.suites .card .card1{
+    width: 300px;
+    height: 300px;
+    background-color: #FC5602;
+    color: white;
+    border-radius: 20px;
+
+}
+.suites .card .card1 p:first-of-type{
+    font-size: 20px;
+    padding: 20px 10px;
+    font-weight: lighter;
+}
+.suites .card .card1 p:last-of-type span{
+    font-size: 24px;
+}
+.suites .card .card1 p:last-of-type{
+    font-size: 15px;
+    padding: 0px 10px;
+}
+.footer{
+    background-color: black;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    padding-top: 50px;
+}
+.footer .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+.footer .top .first p{
+    color: white;
+    margin-top: 30px;
+    width: 250px;
+}
+.footer .top .quick, .perform{
+    display: flex;
+    flex-direction: column;
+}
+.footer .top .quick p, .touch h6, .perform p{
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+}
+.footer .top .quick a, .perform a, .touch p{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+.footer .top .touch p{
+    width: 200px;
+    color: white;
+}
+.footer .socials{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 520px;
+}
+.footer .icon{
+    font-size: 30px;
+    display: flex;
+    gap: 24px;
+}
+.footer .copy{
+    font-size: 24px;
+}
+.footer .top a:hover{
+    text-decoration: underline;
+}
